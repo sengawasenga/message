@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+
+    <!-- ALL ABOUT FONTS  -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Pacifico&display=swap"
+        rel="stylesheet">
+    
+    <!-- ALL ABOUT STYLE FILES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 
+        Hey guys, it's your boy Marcelo, really happy to see you here... let's just build this beautiful
+        front end of the chatt app
+    -->
+
+    <!-- the whole app -->
+    <div class="app_wrapper">
+        <!-- the side bard component like -->
+        <div class="sidebar">
+            <div class="top_sidebar">
+                <div class="profile_minimum">
+                    <img src="img/1.png" alt="" class="cover">
+                </div>
+
+                <div class="side_list">
+                    <div class="list">
+                        <i class="las la-comment-dot"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom_sidebar">
+                <div class="sign_out">
+                    <i class="las la-sign-out-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- the user list component like -->
+        <div class="user_list">
+            <div class="search">
+                <i class="las la-search"></i>
+                <input type="text" class="input_blank">
+                <i class="las la-ellipsis-v"></i>
+            </div>
+
+            <div class="recent_users">
+                <h5 class="little_title mb-4">Recent</h5>
+                <div class="user">
+                    <div class="profile_mini">
+                        <img src="img/2.png" alt="" class="cover">
+                    </div>
+                    <div class="chatt_details">
+                        <div class="bold">Marcelo</div>
+                        <div class="small_light">Hi there!</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="profile_mini">
+                        <img src="img/4.png" alt="" class="cover">
+                    </div>
+                    <div class="chatt_details">
+                        <div class="bold">Marcelo</div>
+                        <div class="small_light">Hi there!</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="profile_mini">
+                        <img src="img/6.png" alt="" class="cover">
+                    </div>
+                    <div class="chatt_details">
+                        <div class="bold">Marcelo</div>
+                        <div class="small_light">Hi there!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- the chatt component like -->
+        <div class="chatt_box">
+            <div class="chatt_header">
+                <div class="profile_mini">
+                    <img src="img/2.png" alt="" class="cover">
+                </div>
+                <div class="chatting_name">
+                    <div class="bold fs-5 mb-0">Marcelo</div>
+                    <span class="small_light">Online</span>
+                </div>
+            </div>
+            <div class="chatt_body">
+                <div class="income">
+                    <div class="message">Hey there !</div>
+                    <div class="timestamp">Today, 2:0pm</div>
+                </div>
+                <div class="income">
+                    <div class="message">How are you doing ?</div>
+                    <div class="timestamp">Today, 2:0pm</div>
+                </div>
+                <div class="outcome">
+                    <div class="message">Hello...</div>
+                    <div class="timestamp">Today, 2:0pm</div>
+                </div>
+                <div class="outcome">
+                    <div class="message">I'm good and what about you?</div>
+                    <div class="timestamp">Today, 2:0pm</div>
+                </div>
+            </div>
+            <div class="chatt_footer">
+                <div class="d-flex align-items-start">
+                    <div class="message_type">
+                        <input class="input_blank" name="" rows="2">
+                        <div class="camera">
+                            <i class="las la-camera"></i>
+                        </div>
+                    </div>
+                    <button class="btn-core">
+                        <i class="las la-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALL ABOUT SCRIPT FILES -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+</html>
