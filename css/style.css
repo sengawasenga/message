@@ -63,6 +63,7 @@ img.cover {
 .user_list {
     width: 250px;
     margin-right: 25px;
+    height: 100%;
 }
 
 .search {
@@ -73,6 +74,7 @@ img.cover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     border-radius: 15px;
+    height: 40px;
 }
 
 .search i {
@@ -96,8 +98,8 @@ img.cover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     padding: 15px;
-    max-height: 100%;
-    overflow: hidden;
+    height: calc(100% - 60px);
+    overflow: auto;
 }
 
 .profile_mini {
